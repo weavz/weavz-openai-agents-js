@@ -1,4 +1,21 @@
-# OpenAI Agents SDK for TypeScript
+# OpenAI Agents SDK for TypeScript MCP integration examples with Weavz
+
+<!-- weavz:discovery:start -->
+
+Connect OpenAI Agents SDK for TypeScript to Gmail, Slack, GitHub and Notion through a remote Weavz Model Context Protocol (MCP) server. Use the native MCP adapter, then try the app setup recipes with your configured connections.
+
+App setup recipes:
+
+- [Gmail MCP with OpenAI Agents SDK for TypeScript](docs/app-recipes.md#gmail-mcp-with-openai-agents-sdk-for-typescript)
+- [Slack MCP with OpenAI Agents SDK for TypeScript](docs/app-recipes.md#slack-mcp-with-openai-agents-sdk-for-typescript)
+- [GitHub MCP with OpenAI Agents SDK for TypeScript](docs/app-recipes.md#github-mcp-with-openai-agents-sdk-for-typescript)
+- [Notion MCP with OpenAI Agents SDK for TypeScript](docs/app-recipes.md#notion-mcp-with-openai-agents-sdk-for-typescript)
+
+The framework consumes app tools from your configured Weavz MCP server. App recipes require your own app connections; automated checks use synthetic records.
+
+[MCP app and framework directory](https://github.com/weavz/mcp-examples/blob/main/docs/integrations.md) · [All examples](https://github.com/weavz/mcp-examples) · [Weavz MCP guide](https://weavz.io/docs/guides/agent-framework-examples)
+
+<!-- weavz:discovery:end -->
 
 OpenAI Agents JS connects with `MCPServerStreamableHttp`, discovers and locally invokes remote Weavz tools, and runs them through an `Agent`. The fixture needs no model credentials.
 
